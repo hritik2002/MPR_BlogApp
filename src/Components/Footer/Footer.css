@@ -1,0 +1,37 @@
+.Footer_container{
+    min-height: 350px;
+    background-color: rgb(27, 27, 27);
+    padding: 40px 20px 0 20px;
+    color:#eee;
+    margin-top: 58vh;
+}
+.Footer_content{
+    display: flex;
+    padding: 0px 20px 0 20px;
+}
+.Footer_content .first{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+}
+.Footer_content  a{
+    padding: 3px;
+    text-decoration: none;
+    color: #eee;
+    transition: 0.3s all;
+    
+}
+.Footer_content  a:hover{
+    color: blue;
+}
+.Footer_content .second , .third{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    height: max-content;
+}
+
+.Footer_content .third .h4{
+    font-weight: bold;
+}
