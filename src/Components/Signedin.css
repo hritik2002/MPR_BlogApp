@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.Signedin_container{
+    margin:0  auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px 10px 60px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.Signedin_container .left{
+    margin-left: 10px;
+    width: 50%;
+}
+.Signedin_container .right{
+    width: 50%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Signedin_container .right a{
+    text-decoration: none;
+}
