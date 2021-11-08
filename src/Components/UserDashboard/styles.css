@@ -1,4 +1,4 @@
-body{
+ /* body{
     background-color: #CEE5D0;
     border: none;
 }
@@ -20,7 +20,7 @@ body{
     left: 350px;
 }
 .submit {
-    background-color: #555555; /* Green */
+    background-color: #555555;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -41,7 +41,7 @@ body{
 
   }
   .proceed {
-    background-color: #555555; /* Green */
+    background-color: #555555; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -55,7 +55,7 @@ body{
     top: 500px;
   }
   .logout {
-    background-color: #e90d0d; /* Green */
+    background-color: #e90d0d; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -68,4 +68,66 @@ body{
     left: 350px;
     top: 650px;
   }
-  
+    */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.userDashboard_container{
+    background-color: blue;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+.userDashboard_left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 40vh;
+}
+.userDashboard_left img{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 2px 4px 8px 15px gray;
+    margin-bottom: 10px;
+}
+.userDashboard_right{
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-height: 40vh;
+}
+.userDashboard_right_name{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+.userDashboard_right_name input{
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding-left: 4px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 2px;
+}
+.userDashboard_right_email{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+.userDashboard_right_email input{
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding-left: 4px;
+    border: 0;
+    border-bottom: 1px solid gray;
+}

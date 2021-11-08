@@ -1,0 +1,13 @@
+.blog_banner{
+    width: 80%;
+    min-height: 20vh;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
