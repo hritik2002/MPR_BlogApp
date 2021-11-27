@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.textbox{
+	width: 400px;
+	height: 600px;
+	margin: 10px auto;
+	border: 1px solid #ccc; 
+}
+
+.teaxhead{
+	width: 100%;
+	height: 522px;
+	border-bottom:  1px solid #ccc; 
+    padding: 12px 5px;
+}
+
+input#inputTag {
+    width: 70%;
+    float: left;
+    height: 40px;
+    margin: 2px;
+}
+ .button{
+    width: 27%;
+    float: left;
+    background: #5980d6;
+    height: 45px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 27px;
+ }
+ .tags {
+    background: #00e207d1;
+    padding: 8px 0 8px 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 1px 1px;
+}
+
+
+.tagsclose {
+    width: 10px;
+    font-size: 21px;
+    margin: 0 0px 0 6px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
